@@ -22,4 +22,4 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
-
+I had to consult prior lessons and the solution a little bit, but I learned different streamlit input options and their syntax, such as multiselect and selectbox. I had a little trouble getting it to work because it kept saying that the final dataframe didn't exist because I had only created it within the ifs and not in the same line as the ending code. 
