@@ -7,7 +7,7 @@ import pandaslib as pl
 
 st.title("UniBrow")
 st.caption("The Universal data browser")
-file = st.file_uploader("Upload a file: ", type = ["xlsx", "csv", "json"])
+file = st.file_uploader("Upload a file: (excel, csv, or json only)", type = ["xlsx", "csv", "json"])
 if file:
     filetype = pl.get_file_extension(file.name)
     df = pl.load_file(file, filetype)
